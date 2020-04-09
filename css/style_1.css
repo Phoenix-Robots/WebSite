@@ -181,10 +181,11 @@ td {
   transition: .4s;
 }
 .InContentLink:hover{
-  color: black;
-  -webkit-text-stroke: 1px white;
-  text-stroke: 1px white;
+  color: white;
+  -webkit-text-stroke: 0.8px black;
+  text-stroke: 0.8px black;
   text-decoration: none;
+	  transition: .8s;
 }
 
 .navbar-light .navbar-nav .open>.nav-link,.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.open,.navbar-light .navbar-nav .nav-link.active{
@@ -361,22 +362,23 @@ td {
 
 /* -- memo background color selector- */
 .single{
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.95);
 }
-#fh5co-title-box #fh5co-title-box-rm{
-  width:38.2%;
+#fh5co-title-box ,#fh5co-title-box-rm{
+	height:600px;
+  width:100%;
   z-index:555;
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:center center
 }
 
+/* memo 上じゃなくてなぜかこっちが適用されてる
 .single #fh5co-title-box{
   position:relative;
   height:600px;
   width:100%
 }
-
+*/
 .single .abrm #fh5co-title-box{
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -485,7 +487,7 @@ td {
 .abrmcnt a:hover{
   text-decoration: none;
   color: white;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 0.1px black;
   text-stroke: 2px black;
   font-weight: 700;
   font-size: 20px;
@@ -544,13 +546,16 @@ td {
   z-index:555;
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:center center
+  background-position:center center;
 }
 
 .single #fh5co-title-box-sm{
   position:relative;
   height:36rem;
-  width:100%
+  width:100%;
+	background-size:cover;
+  background-repeat:no-repeat;
+	background-position:center center;
 }
 
 
@@ -565,7 +570,7 @@ td {
 .single .abus #fh5co-title-box-sm{
   position:relative;
   height:300px;
-  width:100%
+  width:100%;
 }
 
 #fh5co-title-box-sm .overlay{
@@ -627,28 +632,6 @@ td {
 }
 
 
-
-.abrmcnt p{
-  font-size: 20px;
-}
-.abrmcnt a{
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
-  font-size: 20px;
-    transition: .4s;
-}
-
-.abrmcnt a:hover{
-  text-decoration: none;
-  color: white;
-  -webkit-text-stroke: 2px black;
-  text-stroke: 2px black;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-
 .abus #fh5co-title-box-sm .page-title h1{
   text-align: left;
   font-weight:600;
@@ -703,6 +686,29 @@ td {
   background-color: black;
 }
 .truebody { padding-top: 60px; }
+
+.scroll-tab table {
+	margin: auto;
+	color: white;
+	border: solid 10px rgb(50,50,50);
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.non-scroll-tab table {
+	margin: auto;
+	color: white;
+	border: solid 10px rgb(50,50,50);
+  white-space: nowrap;
+}
+
+.small-text {
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
 
 .InButton {
   font-size: 20pt;
