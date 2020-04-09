@@ -155,6 +155,11 @@ td {
   font-size: 30pt;
 }
 
+.SpnsrImg{
+	width: 80%;
+	text-align: center;
+}
+
 .InContentImg{
   width: 200px;
   text-align: center;
@@ -186,6 +191,62 @@ td {
   text-stroke: 0.8px black;
   text-decoration: none;
 	  transition: .8s;
+}
+
+
+
+.imagebg{
+	background-color: white;
+}
+
+.imagebg h3{
+	color: black;
+}
+
+.imagebg p{
+	color: black;
+}
+
+.sponsorarea a{
+	font-size: 1.5em;
+	text-decoration:none;
+	color: black;
+	font-weight: bold;
+	transition: .4s;
+}
+
+
+.sponsorarea a:hover{
+	color: #ec5404;
+}
+/*
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+    transition: .4s;
+
+  text-decoration: none;
+  color: white;
+  -webkit-text-stroke: 0.1px black;
+  text-stroke: 2px black;
+  font-weight: 700;
+  font-size: 20px;
+*/
+
+
+.sponsorarea img{
+	width: 95%;
+	transition: .4s;
+}
+
+.h3color{
+	color: #ec5404;
+
+}
+
+.sponsorarea img:hover{
+	transform: scale(1.005);
 }
 
 .navbar-light .navbar-nav .open>.nav-link,.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.open,.navbar-light .navbar-nav .nav-link.active{
