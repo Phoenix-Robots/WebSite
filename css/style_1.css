@@ -155,10 +155,7 @@ td {
   font-size: 30pt;
 }
 
-.SpnsrImg{
-	width: 80%;
-	text-align: center;
-}
+
 
 .InContentImg{
   width: 200px;
@@ -236,17 +233,24 @@ td {
 
 
 .sponsorarea img{
-	width: 95%;
 	transition: .4s;
-}
-
-.h3color{
-	color: #ec5404;
-
 }
 
 .sponsorarea img:hover{
 	transform: scale(1.005);
+}
+
+.h3color{
+	color: #ec5404;
+}
+
+.spnsrimg{
+	vertical-align: middle;
+	
+}
+
+.areaindicator{
+	background-color: red;
 }
 
 .navbar-light .navbar-nav .open>.nav-link,.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.open,.navbar-light .navbar-nav .nav-link.active{
