@@ -18,6 +18,15 @@ td {
 	padding: 0.5em;
 }
 
+hr {
+ height: 15px;
+ color: red;
+ background-color: #ec5404;
+ width: 70%;
+ border: none;
+}
+
+
 .contact-list{
   margin-top: 20px;
   padding-left: 13px;
@@ -242,11 +251,12 @@ td {
 
 .h3color{
 	color: #ec5404;
+	text-align: center;
 }
 
 .spnsrimg{
 	vertical-align: middle;
-	
+
 }
 
 .areaindicator{
