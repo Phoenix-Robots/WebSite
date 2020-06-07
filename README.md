@@ -1,25 +1,25 @@
 
-# Webサイト概要と更新履歴
+## Webサイト概要と更新履歴
 2020.06.07 スポンサー追加
 
-# 実装概要
+## 実装概要
 html + css(style1.css & bootstrap.css) + jQ(テンプレママ)
 Windows10 Chrome と OSX Chrome Safariで開発
 スマホは上記ブラウザの開発ツールで動作確認
 
-
-# やること
-画像追加(できれば自分たちで撮影したもの)
-スポンサーロゴ追加
+## やること
+読み込みが遅いので画像かサイト自体の軽量化
+メンバー紹介ページ
+コード整理　特にCSSがひどい
 
 いまはスマホ版とPC版で違うコードを書いてるけど1コードでも
 レスポンシブル行けるらしいのでそれの検討
 
-# バグ
+## バグ
 Contactでフッタが表示されない
 
 
-# てんぷれ引用元のRead.me
+## てんぷれ引用元のRead.me
 
 TITLE: 
 24 News - 100% Fully Responsive Free HTML5 Bootstrap Template
@@ -66,4 +66,3 @@ https://maps.google.com
 
 Demo Images:
 http://unsplash.com
-
