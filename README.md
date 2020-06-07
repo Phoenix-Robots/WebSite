@@ -1,24 +1,25 @@
 
-スマホ対応版(2020.4.6 ver4)
+# Webサイト概要と更新履歴
+2020.06.07 スポンサー追加
 
-実装概要
+# 実装概要
 html + css(style1.css & bootstrap.css) + jQ(テンプレママ)
 Windows10 Chrome と OSX Chrome Safariで開発
 スマホは上記ブラウザの開発ツールで動作確認
 
 
-やること
+# やること
 画像追加(できれば自分たちで撮影したもの)
 スポンサーロゴ追加
 
 いまはスマホ版とPC版で違うコードを書いてるけど1コードでも
 レスポンシブル行けるらしいのでそれの検討
 
-バグ
+# バグ
 Contactでフッタが表示されない
 
 
-以下はてんぷれ引用元のRead.me
+# てんぷれ引用元のRead.me
 
 TITLE: 
 24 News - 100% Fully Responsive Free HTML5 Bootstrap Template
