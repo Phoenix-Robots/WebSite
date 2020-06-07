@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <!--
-	24 News by FreeHTML5.co
-	Twitter: https://twitter.com/fh5co
-	Facebook: https://fb.com/fh5co
-	URL: https://freehtml5.co
+スポンサーページ
+スポンサー記述欄は下の方
 -->
 <html lang="en" class="no-js">
 <head>
@@ -47,14 +45,6 @@
      スマホ版でなにか表示したいときはここに記述
     -->
   </div>
-
-
-<!--
-ToDo:
-!!開発終わったら各beta記述外す!!
-スマホで表示してるときだけスクロールで上に消える仕様にする
-Nav-barはやめて独自に記述する説
--->
 
 <div class="container-fluid bg-faded fh5co_padd_mediya padding_786">
     <div class="container padding_786">
@@ -184,8 +174,20 @@ Nav-barはやめて独自に記述する説
   </div>
 
 
+<!--
+スポンサー紹介欄はスマホ版とPC版でレスポンシブルな画像サイズの扱いが今のところ難しいため別々で書いています．
+追加するときは忘れずに2個記入してそれぞれ開発モードで画像サイズ微調整お願いします．
+col-md~ とか使ってしようとしたけど結局できずに記述が残ってるか所あるかも
+-->
 
-
+<!-- テンプレート 1行まるまる使うときはcol-6 を　col-12に　詳しくはTwitterBootstrap
+<div class="col-6 text-center p-5 imagebg">
+  <p><br>
+    <a href="" target="_blank"> 様</a><br>
+    <a href="" target="_blank"><img src="logo/" width="90%"></a><br>
+  </p>
+</div>
+-->
 
 <div class="d-none d-lg-block"><!--PC版エリア-->
 
@@ -202,31 +204,38 @@ Nav-barはやめて独自に記述する説
     <div class="row habausu imagebg">
 
 
-      <div class="col-6 text-center p-5 imagebg">
+      <div class="col-4 text-center p-5 imagebg">
         <p><br>
           <a href="https://www.syse.co.jp" target="_blank">株式会社Syse 様</a><br>
           <a href="https://www.syse.co.jp" target="_blank"><img src="logo/syse-logo.jpg" width="90%"></a><br>
         </p>
       </div>
 
-      <div class="col-6 text-center p-5 imagebg">
+      <div class="col-4 text-center p-5 imagebg">
         <p><br>
           <a href="http://t-k-f.co.jp" target="_blank">株式会社TKF 様</a><br>
           <a href="http://t-k-f.co.jp" target="_blank"><img src="logo/tkf-logo.png" width="60%"></a><br>
         </p>
       </div>
 
-      <div class="col-6 text-center p-5 imagebg">
+      <div class="col-4 text-center p-5 imagebg">
         <p><br>
           <a href="http://cuborex.com/" target="_blank">株式会社CuboRex 様</a><br>
           <a href="http://cuborex.com/" target="_blank"><img src="logo/CuboRex-logo.png" width="100%"></a><br>
         </p>
       </div>
 
-      <div class="col-6 text-center p-5 imagebg">
+      <div class="col-4 text-center p-5 imagebg">
         <p><br>
           <a href="http://www.sekigiken.co.jp" target="_blank">セキ技研株式会社 様</a><br>
           <a href="http://www.sekigiken.co.jp" target="_blank"><img src="logo/seki-logo.jpg" width="65%"></a><br>
+        </p>
+      </div>
+
+      <div class="col-4 text-center p-5 imagebg">
+        <p><br>
+          <a href="https://www.system-square.com/" target="_blank">株式会社システムスクエア 様</a><br>
+          <a href="https://www.system-square.com/" target="_blank"><img src="logo/systemsquare-logo.jpg" width="80%"></a><br>
         </p>
       </div>
 
@@ -235,13 +244,30 @@ Nav-barはやめて独自に記述する説
   <div class="h3color"><h3>ブロンズスポンサー</h3></div>
       <hr>
   <div class="row imagebg text-center">
-
-    <div class="col-7 col-md-4 text-center p-5 imagebg">
+<div class="col-3">
+</div>
+    <div class="col-3 text-center p-5 imagebg">
       <p><br>
         <a href="https://www.justem.jp" target="_blank">株式会社<br>ジャステム 様</a><br>
         <a href="https://www.justem.jp" target="_blank"><img src="logo/justem-logo-hori.jpg" width="80%"></a><br>
       </p>
     </div>
+
+    <div class="col-3 text-center p-5 imagebg">
+      <p><br>
+        <a href="https://www.shichiri.co.jp/" target="_blank">株式会社<br>七里商店 様</a><br>
+        <a href="https://www.shichiri.co.jp/" target="_blank"><img src="logo/shichiiri-logo.png" width="120%"></a><br>
+      </p>
+    </div>
+
+<!--
+    <div class="col-3 text-center p-5 imagebg">
+      <p><br>
+        <a href="http://www.terrano-seiko.co.jp/" target="_blank">テラノ精工株式会社 様</a><br>
+        <a href="http://www.terrano-seiko.co.jp/" target="_blank"><img src="logo/" width="90%"></a><br>
+      </p>
+    </div>
+-->
 
 </div>
 
@@ -261,7 +287,7 @@ Nav-barはやめて独自に記述する説
   <div class="col-md-4 col-6 text-center p-5 imagebg">
     <p><br>
       <a href="https://www.city.nagaoka.niigata.jp/" target="_blank">長岡市</a><br>
-      <a href="https://www.city.nagaoka.niigata.jp/" target="_blank"><img src="logo/nagaoka-logo.jpg" width="90%"></a><br>
+      <a href="https://www.city.nagaoka.niigata.jp/" target="_blank"><img src="logo/nagaoka-logo.jpg" width="70%"></a><br>
     </p>
   </div>
 
@@ -275,7 +301,7 @@ Nav-barはやめて独自に記述する説
   <div class="col-md-4 col-6 text-center p-5 imagebg">
     <p><br>
       <a href="https://nbic.jp/" target="_blank">NBIC</a><br>
-      <a href="https://nbic.jp/" target="_blank"><img src="logo/nbic-logo.png" width="40%"></a><br>
+      <a href="https://nbic.jp/" target="_blank"><img src="logo/nbic-logo.png" width="30%"></a><br>
     </p>
   </div>
 
@@ -287,6 +313,7 @@ Nav-barはやめて独自に記述する説
 
 
 </div><!--PC版エリア終わり-->
+
 <div class="d-block d-lg-none"><!--スマホ版エリア-->
 
   <div class="sponsorarea">
@@ -330,19 +357,41 @@ Nav-barはやめて独自に記述する説
         </p>
       </div>
 
+      <div class="col-6 text-center p-5 imagebg">
+        <p><br>
+          <a href="https://www.system-square.com/" target="_blank">株式会社システムスクエア 様</a><br>
+          <a href="https://www.system-square.com/" target="_blank"><img src="logo/systemsquare-logo.jpg" width="120%"></a><br>
+        </p>
+      </div>
+
   </div>
 <br>
   <div class="h3color"><h3>ブロンズスポンサー</h3></div>
       <hr>
   <div class="row imagebg text-center">
 
-    <div class="col-7 col-md-4 text-center p-5 imagebg">
+    <div class="col-6 text-center p-5 imagebg">
       <p><br>
         <a href="https://www.justem.jp" target="_blank">株式会社<br>ジャステム 様</a><br>
         <a href="https://www.justem.jp" target="_blank"><img src="logo/justem-logo-hori.jpg" width="80%"></a><br>
       </p>
     </div>
 
+    <div class="col-6 text-center p-5 imagebg">
+      <p><br>
+        <a href="https://www.shichiri.co.jp/" target="_blank">株式会社<br>七里商店 様</a><br>
+        <a href="https://www.shichiri.co.jp/" target="_blank"><img src="logo/shichiiri-logo.png" width="120%"></a><br>
+      </p>
+    </div>
+
+<!--
+    <div class="col-3 text-center p-5 imagebg">
+      <p><br>
+        <a href="http://www.terrano-seiko.co.jp/" target="_blank">テラノ精工株式会社 様</a><br>
+        <a href="http://www.terrano-seiko.co.jp/" target="_blank"><img src="logo/" width="90%"></a><br>
+      </p>
+    </div>
+-->
 </div>
 
 
