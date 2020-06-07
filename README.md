@@ -1,11 +1,11 @@
 
-## Webサイト概要と更新履歴
+## 更新履歴
 2020.06.07 スポンサー追加
 
 ## 実装概要
-html + css(style1.css & bootstrap.css) + jQ(テンプレママ)
+html + css(style1.css & bootstrap.css)
 
-Windows10 Chrome と OSX Chrome Safariで開発
+Windows10 Chrome と OSX Chrome Safariで作成
 
 スマホは上記ブラウザの開発ツールで動作確認
 
