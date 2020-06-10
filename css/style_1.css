@@ -12,6 +12,7 @@ a,a:hover{color:#ec5404}.fh5co_header_bg{background:#222;color:#fff}.color_fff{c
 
 table {
 	border-collapse: collapse;
+	width: 80%;
 }
 td {
 	border: solid 1px;
@@ -26,6 +27,26 @@ hr {
  border: none;
 }
 
+/*以下は個人サポーター欄向けの表示*/
+.SupporterSmapho{
+	width: 80%;
+	margin: 0 auto;
+  text-align: center;
+  font-size: 14pt;
+  color: white;
+}
+.SupporterSmapho b{
+	padding: 10px;
+  color: #ec5404;
+  font-weight: 200;
+  font-size: 15pt;
+}
+.SupporterSmapho h3{
+    font-family: "Teko";
+  color: #ec5402;
+  font-size: 20pt;
+}
+/*個人サポーター欄向けの表示 終わり*/
 
 .contact-list{
   margin-top: 20px;
@@ -113,7 +134,7 @@ hr {
 .sponsorstyle-sm h3{
     font-family: "Teko";
   color: #ec5402;
-  font-size: 30pt;
+  font-size: 25pt;
 }
 
 .aboutusstyle{
