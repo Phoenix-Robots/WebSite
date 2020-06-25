@@ -37,7 +37,6 @@ Website: http://freehtml5.co/
 Twitter: http://twitter.com/fh5co
 Facebook: http://facebook.com/fh5co
 
-
 CREDITS:
 
 Bootstrap
@@ -66,9 +65,6 @@ http://www.owlcarousel.owlgraphic.com/
 
 Stellar Parallax
 http://markdalgleish.com/projects/stellar.js/
-
-Google Maps
-https://maps.google.com
 
 Demo Images:
 http://unsplash.com
