@@ -29,10 +29,18 @@ hr {
 
 /*以下は個人サポーター欄向けの表示*/
 .SupporterSmapho{
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
   text-align: center;
   font-size: 14pt;
+  color: white;
+}
+/*以下は個人サポーター欄向けの表示*/
+.SupporterSmapho p{
+	width: 90%;
+	margin: 0 auto;
+  text-align: center;
+  font-size: 12pt;
   color: white;
 }
 .SupporterSmapho b{
@@ -44,6 +52,16 @@ hr {
 .SupporterSmapho h3{
     font-family: "Teko";
   color: #ec5402;
+  font-size: 25pt;
+}
+.SupporterSmapho h2{
+    font-family: "Teko";
+  color: white;
+  font-size: 25pt;
+}
+.SupporterSmapho h1{
+    font-family: "Teko";
+  color: white;
   font-size: 20pt;
 }
 /*個人サポーター欄向けの表示 終わり*/
@@ -218,6 +236,18 @@ hr {
   text-stroke: 0.8px black;
   text-decoration: none;
 	  transition: .8s;
+}
+
+.InContentLink2{
+	font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: .4s;
+}
+.InContentLink2:hover{
+  color: #ec5404;
+  text-decoration: none;
+	transition: .8s;
 }
 
 
