@@ -1,7 +1,7 @@
 /*
 
 style_1.cssが煩雑すぎるので作った2つめ
-
+#ec5404
 */
 
 
@@ -17,4 +17,38 @@ hr {
   text-align: center;
   font-size: 1.3em;
   padding-bottom: 10px;
+}
+
+.Club-phoenix-list {
+  text-align: center;
+  font-size: 15pt;
+  color: white;
+}
+
+.Club-phoenix-list b{
+  font-family: "Teko";
+  color: white;
+  font-weight: 200;
+  font-size: 25pt;
+}
+
+.Club-phoenix-list-tab table{
+  margin: auto;
+	color: white;
+  width: 30%;
+  font-size: 20pt;
+  white-space: nowrap;
+}
+
+.Club-phoenix-list-tab-sm table{
+  margin: auto;
+	color: white;
+  width: 30%;
+  font-size: 15pt;
+  white-space: nowrap;
+}
+
+.small-kuchi {
+  color: white;
+  font-size: 15pt;
 }

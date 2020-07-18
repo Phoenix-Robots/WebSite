@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300|Amatic+SC:700|Anton|Bangers|Caveat|Cherry+Swash:700|Corben:700|Creepster|Economica:700|Homemade+Apple|IM+Fell+DW+Pica+SC|Kaushan+Script|Londrina+Shadow|Montserrat+Subrayada|Oswald:700|Permanent+Marker|Quicksand|Roboto+Condensed:700|Teko|Vollkorn&display=swap');
 </style>
 
-a,a:hover{color:#ec5404}.fh5co_header_bg{background:#222;color:#fff}.color_fff{color:#fff !important}.treding_btn{background:#ec5404;color:#fff;margin:0 10px;display:inline-block;padding:15px 40px}.treding_btn:hover,.treding_btn:focus{background:#ec5404;color:#fff;margin:0 10px;display:inline-block;padding:15px 40px}.fh5co_trading_posotion_relative{position:relative}.fh5co_treding_position_absolute{-webkit-clip-path:polygon(0 1%, 100% 0, 0 100%, 0% 100%);-moz-clip-path:polygon(0 1%, 100% 0, 0 100%, 0% 100%);-ms-clip-path:polygon(0 1%, 100% 0, 0 100%, 0% 100%);clip-path:polygon(0 1%, 100% 0, 0 100%, 0% 100%);height:20px;width:20px;background:#ec5404;position:absolute;left:9px}
+a,a:hover{color:sponsorstyle}.fh5co_header_bg{background:#222;color:#fff}.color_fff{color:#fff !important}.treding_btn{background:#ec5404;color:#fff;margin:0 10px;display:inline-block;padding:15px 40px}.treding_btn:hover,.treding_btn:focus{background:#ec5404;color:#fff;margin:0 10px;display:inline-block;padding:15px 40px}.fh5co_trading_posotion_relative{position:relative}.fh5co_treding_position_absolute{-webkit-clip-path:polygon(0 1%, 100% 0, 0 100%, 0% 100%);-moz-clip-path:polygon(0 1%, 100% 0, 0 100%, 0% 100%);-ms-clip-path:polygon(0 1%, 100% 0, 0 100%, 0% 100%);clip-path:polygon(0 1%, 100% 0, 0 100%, 0% 100%);height:20px;width:20px;background:#ec5404;position:absolute;left:9px}
 .fh5co_mediya_right{text-align:right}
 .fh5co_display_table{height:40px;width:40px;display:table;color:#777;font-size:18px;border:1px solid #fff !important;cursor:pointer;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;transition:1s;margin:0 10px;color:#777 !important}.fh5co_display_table:hover,.fh5co_display_table:focus{display:table;color:#777;border:1px solid #ec5404 !important;cursor:pointer;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%}
 .fh5co_verticle_middle{vertical-align:middle;display:table-cell}
@@ -112,7 +112,6 @@ hr {
   transition: .4s;
 }
 
-
 .fixed-footer{
   position: fixed;
 }
@@ -134,6 +133,9 @@ hr {
     font-family: "Teko";
   color: #ec5402;
   font-size: 40pt;
+}
+.sponsorstyle h2{
+    font-family: "Teko";
 }
 
 .sponsorstyle-sm{
