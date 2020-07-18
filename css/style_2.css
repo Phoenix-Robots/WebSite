@@ -50,5 +50,17 @@ hr {
 
 .small-kuchi {
   color: white;
-  font-size: 15pt;
+  font-size: 70%;
+}
+.INLINE-ORANGE {
+  color: #ec5404;
+}
+.INLINE-SMALL{
+  font-size: 60%;
+}
+.INLINE-BIG{
+  font-size: 120%;
+}
+.INLINE-DARK{
+  color: #c4c4c4;
 }
