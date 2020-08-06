@@ -20,7 +20,7 @@
 コード整理　特にCSSがひどい
 
 ## バグ
-Contactでフッタが表示されない
+現状なし
 
 ## 環境
 html + css(style1.css & bootstrap.css)
